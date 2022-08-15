@@ -2,6 +2,10 @@
 开心词场帮助程序
 ![image](https://user-images.githubusercontent.com/15976103/107328965-756e8180-6aea-11eb-9fff-6717094d74fa.png)
 
+## PS
+- 这个项目不做解答和额外内容
+- 不接受 feature 的 PR
+
 ## USE
 1. python3.6 or higher
 2. pip install -r requirements.txt
