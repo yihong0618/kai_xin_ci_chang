@@ -10,6 +10,7 @@
 1. python3.6 or higher
 2. pip install -r requirements.txt
 3. python cichang.py 'your user name' 'your password'
+4. 如果你想下载小D词典的单词加上命令 -xd `python cichang.py 'your user name' 'your password' -xd`
 
 ## INFO
 - 所有文件存在 `FILES_OUT` 里
