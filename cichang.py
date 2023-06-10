@@ -176,7 +176,11 @@ def make_xiaod_note(s):
     note_dict = get_xiaod_notes_dict(s)
     for k, v in note_dict.items():
         data = get_xiaod_words(s, k)
-        df = pd.DataFrame(data["data"]["wordList"])
+        word_list = data["data"]["wordList"] 
+        if not word_list:
+            print(f"No data in {v}")
+            continue
+        df = pd.DataFrame(word_list)
         df = df[
             ["word", "wordId", "definition", "clientDateAdded", "clientDateUpdated"]
         ]
